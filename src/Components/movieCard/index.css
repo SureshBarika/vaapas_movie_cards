@@ -1,0 +1,42 @@
+.movie-card {
+  margin: 5px;
+  list-style-type: none;
+  border-radius: 8px;
+  box-shadow: 1px 5px 20px 2px;
+  width: 300px;
+  cursor: pointer;
+}
+
+@media (width <756px) {
+  .movie-card {
+    width: 400px;
+  }
+}
+
+.movie-card:hover {
+  scale: 1.05;
+}
+
+.movie-img {
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.movie-content {
+  padding: 5px;
+}
+
+.movie-name {
+  color: darkslategrey;
+}
+
+.author-name {
+  color: darkolivegreen;
+}
+
+.year {
+  color: dimgrey;
+  font-weight: bold;
+}

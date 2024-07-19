@@ -1,0 +1,67 @@
+.movie-cards-home-cont {
+  min-height: 100vh;
+}
+
+.home-nav-bar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.logo-img {
+  height: 70px;
+}
+
+.search-bar {
+  outline: none;
+  padding: 5px 10px;
+  border: 0px;
+  width: 100%;
+}
+
+form {
+  width: 230px;
+  margin: 20px;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px #333 solid;
+  border-radius: 5px;
+}
+
+.search-btn {
+  border: 0px;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.movie-cards-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.centered-content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-section-hed {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #333;
+}
+.failed-movie {
+  color: red;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.failed-pera {
+  color: #333;
+}
